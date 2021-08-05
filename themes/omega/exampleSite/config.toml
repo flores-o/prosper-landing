@@ -1,4 +1,4 @@
-######################## default configuration ####################
+######################## default configuration ###################
 baseURL = "themes/omega/exampleSite/config.toml"
 title = "OMEGA"
 theme = "omega"
