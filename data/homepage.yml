@@ -40,31 +40,28 @@ vision:
 #################### product ####################
 product:
   enable : true
-  section : "Products"
-  title : "Some Of Our Best Products"
-  content : "See the innovation that has come through the Rio way. As an advancement company, the goal is to continuously find areas to help business push forward. Below you can find the first product available to help you do so."
+  section : "Team"
+  title : "Team"
+  content : "<br/>"
   product_item:
-  - title : "Ecosystem"
-    image : "images/product/product-03.jpg"
-    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
     
-  - title : "Objects"
-    image : "images/product/product-02.jpg"
-    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
+  - title : "Shariq Hashme"
+    image : "images/product/shariq_profile.png"
+    content : "Previously worked at Oculus, OpenAI, and Scale AI. <br/>   
+               At Scale ($7B) he hired over 10,000 workers from the Philippines to label data for top self-driving car companies."
+    project_url : "https://www.linkedin.com/in/hashme/"
     
-  - title : "Publisher"
-    image : "images/product/product-03.jpg"
-    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
+  - title : "Ritesh Ragavender"
+    image : "images/product/ritesh_profile.png"
+    content : "Ritesh previously started AlphaSheets - a data science  company backed by YC and Redpoint Ventures.  <br/> AlphaSheets  was acquired by Google in early 2019."
+    project_url : "https://www.linkedin.com/in/rragavender/"
 
 
 ###################### Contact ####################
 contact:
   enable : true
   section : "CONTACT US"
-  title : "reach us"
+  title : "<br/> <br/> <br/>reach us"
   image : "images/map-bg.jpg"
   content : "The dawn of the digital age and the need for a significant leap forward is here. We believe that every business has the opportunity to move into this new age with the right mindset. Contact us today to begin understanding how Omega can propel your business."
 
