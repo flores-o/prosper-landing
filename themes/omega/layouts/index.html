@@ -14,9 +14,7 @@
             </div>
             <div class="content mission-content">
               <h2>
-                <span class="rev">
                   {{.title | markdownify}}
-                </span>
               </h2>
               <h3>{{ .content | markdownify }}</h3>
               {{ if .button.enable }}
@@ -172,6 +170,8 @@
       </div>
     </div>
   </div>
+
+<!--
   <div class="map-div">
     {{ with site.Params.map }}
     <div id="map" data-center-lat="{{.map_center_lat}}" data-center-lng="{{.map_center_lng}}" data-position-lat="{{.map_position_lat}}" data-position-lng="{{.map_position_lng}}" data-marker="{{.map_marker | absURL }}" data-name="{{site.Title}}"></div>
@@ -194,6 +194,7 @@
       </div>
     </div>
   </div>
+-->
 </div>
 {{ end }}
 {{ end }}
