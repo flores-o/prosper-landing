@@ -3,6 +3,7 @@
 {{ if site.Data.homepage.banner.enable }}
 {{ with site.Data.homepage.banner }}
 <section class="hero-slider">
+ <div class="mission-content">
   <div class="container-fluid p-0 m-0">
     <div class="row m-0">
       <div class="col-12 p-0 ml-auto">
@@ -11,7 +12,7 @@
             <div class="item-image image-reveal" style="animation-delay: 2s;">
               <img src="{{ .image | absURL }}" alt="slider-image">
             </div>
-            <div class="content">
+            <div class="content mission-content">
               <h2>
                 <span class="rev">
                   {{.title | markdownify}}
@@ -34,6 +35,7 @@
       </div>
     </div>
   </div>
+ </div>
 </section>
 {{ end }}
 {{ end }}
@@ -57,13 +59,14 @@
           <h2><span class="rev">{{ .title | markdownify}}</span></h2>
           <p>{{ .content | markdownify }}</p>
 
-          <div class="video image-reveal">
+ <!--     <div class="video image-reveal">
             <a class="video-play"
               data-video="https://www.youtube.com/embed/{{.video_id}}?autoplay=1&showinfo=0&controls=0">
               <img src="{{ .video_thumb | absURL }}" class="img-fluid" alt="video-thumb">
               <i class="fa fa-play"></i>
             </a>
           </div>
+-->
         </div>
       </div>
     </div>

@@ -2,21 +2,21 @@
 banner:
   enable : true
   title : "Low-cost general purpose robots"
-  content : "2 meters high, 2 human-sized arms, 2 grippers, 4 wheels, and a depth camera for 3D vision."
+  content : "Cut the labor costs by 2X, outsource the manual work"
   image : "images/hero-image/hero-slider-01.jpg"
   button:
     enable : true
-    label : "WHAT WE DO"
-    link : "#products"
+    label : "WAITING LIST"
+    link : "https://airtable.com/shraTX1fHyuc7oLzO"
 
 #################### Mission #####################
 mission:
   enable : true
-  title : "Propel Advancement"
+  title : "Human sized robots"
   section : "MISSION"
-  content : "Introducing the world’s first Advancement Company. As we enter the dawn of the digital age a significant leap must be made to propel the world into the age of advancement."
-  video_thumb: "images/video-thumb.jpg"
-  video_id: "ResipmZmpDU"
+  content : "These robots are 5'10''. They have 2 human-sized arms,  2 grippers, 4 wheels, and a depth camera for 3D vision."
+  ###video_thumb: "images/video-thumb.jpg" ###
+  ###video_id: "ResipmZmpDU ###"
 
 
 #################### Vission #####################

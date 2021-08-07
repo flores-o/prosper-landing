@@ -9543,7 +9543,8 @@ body {
         font-size: 80px;
         letter-spacing: 1px;
         line-height: 1;
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        max-width: 100%; }
         .hero-slider-wrapper .item .content h2 span {
           clip-path: inset(0 100% 0 0); }
         @media (max-width: 1200px) {
@@ -9554,7 +9555,11 @@ body {
         @media (max-width: 767px) {
           .hero-slider-wrapper .item .content h2 {
             font-size: 35px;
-            line-height: 40px; } }
+            line-height: 40px;
+            max-width: 100%; } }
+        @media (max-width: 575px) {
+          .hero-slider-wrapper .item .content h2 {
+            max-width: 100%; } }
       .hero-slider-wrapper .item .content h3 {
         margin-bottom: 95px;
         letter-spacing: 2px;

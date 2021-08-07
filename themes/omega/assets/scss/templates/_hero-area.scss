@@ -53,6 +53,7 @@
 				letter-spacing: 1px;
 				line-height: 1;
 				margin-bottom: 20px;
+                                max-width: 100%;
 
 				span {
 					clip-path: inset(0 100% 0 0);
@@ -67,6 +68,10 @@
 				@include tablet {
 					font-size: 35px;
 					line-height: 40px;
+                                        max-width: 100%;
+				}
+                                @include mobile {
+				        max-width: 100%;
 				}
 			}
 
@@ -86,6 +91,9 @@
 					font-size: 16px;
 					letter-spacing: 1px;
 					margin-bottom: 30px;
+				}
+                                @include mobile {
+				        max-width: 100%;
 				}
 			}
 
