@@ -74,6 +74,7 @@
 {{ end }}
 
 
+
 {{ if site.Data.homepage.vision.enable }}
 {{ with site.Data.homepage.vision }}
 <section class="vision">
@@ -87,7 +88,8 @@
           {{ range .vision_item }}
           <div class="vision-item">
             <div class="image image-reveal">
-              <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb">
+<!-- oana: added css element here -->
+              <img src="{{ .image | absURL }}" class="img-fluid" alt="vision-thumb" style="opacity:80%">
             </div>
             <div class="text-content">
               <h3>{{ .title | markdownify }}</h3>
@@ -103,10 +105,14 @@
 {{ end }}
 {{ end }}
 
+
+
+
 {{ if site.Data.homepage.product.enable }}
 {{ with site.Data.homepage.product }}
 <section class="products" id="products">
-  <div class="bg">
+<!-- added css element here, compromised separation between html, css -->
+  <div class="bg" style="visibility:hidden">
     <img src="{{`images/section-bg-2.jpg` | absURL}}" class="img-fluid" alt="section-bg">
   </div>
   <div class="left-shape">
@@ -151,6 +157,7 @@
 </section>
 {{ end }}
 {{ end }}
+
 
 {{ if site.Data.homepage.contact.enable }}
 {{ with site.Data.homepage.contact }}

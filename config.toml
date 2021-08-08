@@ -22,28 +22,28 @@ url = "mission"
 weight = 2
 
 [[menu.main]]
-name = "Products"
+name = "Team"
 pre = "#"
 url = "products"
 weight = 3
 
-[[menu.main]]
-name = "Career"
-pre = ""
-url = "career"
-weight = 4
+#[[menu.main]]
+#name = "Contact"
+#pre = "#"
+#url = "call_to_action"
+#weight = 5
 
 [[menu.main]]
-name = "Contact"
+name = "Enterprise"
 pre = "#"
 url = "contact"
-weight = 5
+weight = 4
 
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-logo_width = "120px"
+logo_width = "200px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
