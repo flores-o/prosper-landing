@@ -47,7 +47,7 @@ vision:
 #################### product ####################
 product:
   enable : true
-  section : "Team"
+  section : ""
   title : "Team"
   content : "<br/>"
   product_item:
