@@ -9575,6 +9575,9 @@ body {
             font-size: 16px;
             letter-spacing: 1px;
             margin-bottom: 30px; } }
+        @media (max-width: 575px) {
+          .hero-slider-wrapper .item .content h3 {
+            max-width: 100%; } }
       .hero-slider-wrapper .item .content .hero-btn {
         padding: 25px 50px;
         font-weight: 600;
@@ -9825,7 +9828,7 @@ body {
   position: relative;
   z-index: 6; }
   .visions::before {
-    content: 'MADE THINGS';
+    content: '';
     font-family: "bebas_neue_regular";
     position: absolute;
     top: 18%;
